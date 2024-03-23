@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, Helvetica Neue, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #032B44;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: lightblue;
+}
+
+section {
+  padding: 40px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #ADD8E6;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  list-style-position: inside;
+}
+
+.custom-list li:before {
+  content: "• ";
+  color: #032B44;
+  font-weight: bold;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Ensure gallery items wrap properly */
+}
+
+.gallery img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video {
+  text-align: center;
+}
+
+.about-content,
+.about-image {
+  text-align: center; /* Center the content within the sections */
+}
+
+.about-image img {
+  width: 300px;
+  height: auto;
+}
+
+/* Center section titles */
+section h2 {
+  text-align: center;
+}
+
+/* Center photo gallery header */
+#gallery h2 {
+  text-align: center;
+}
+/* Contact Information */
+.contact-info {
+  float: left;
+  width: calc(50% - 20px); /* Adjust the width as needed */
+  padding-right: 20px;
+}
+
+/* Our Location */
+.location-info {
+  float: left;
+  width: calc(50% - 20px); /* Adjust the width as needed */
+  padding-left: 20px;
+}
